@@ -3,10 +3,10 @@ module Day2
   )
 where
 
-import Data.List.Split
+import Data.List.Split ( splitOn )
 import Data.Map (Map)
 import qualified Data.Map as Map
-import Paths_aoc_v2023
+import Paths_aoc_v2023 ( getDataFileName )
 
 type Color = [Char]
 
